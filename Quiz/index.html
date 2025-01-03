@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <h1><span>QUIZ</span> Culture Générale.✔️</h1>
+
+    <div class="global-container">
+      <form class="quiz-form">
+        <div class="question-block">
+          <h4>
+            Quand la déclaration d'indépendance des Etats-Unis a-t-elle été
+            votée ?
+          </h4>
+          <div>
+            <input type="radio" id="mois1" name="q1" value="a" checked />
+            <label for="mois1"> 4 juillet 1776 </label>
+          </div>
+          <div>
+            <input type="radio" id="mois2" name="q1" value="b" />
+            <label for="mois2"> 18 avril 1856</label>
+          </div>
+          <div>
+            <input type="radio" id="mois3" name="q1" value="c" />
+            <label for="mois3"> 30 juin 1925</label>
+          </div>
+        </div>
+        <div class="question-block">
+          <h4>donner l'expression de taux dans le dipole RC ?</h4>
+          <div>
+            <input type="radio" id="taux1" name="q2" value="a" checked />
+            <label for="taux1">τ = R/C</label>
+          </div>
+          <div>
+            <input type="radio" id="taux2" name="q2" value="b" />
+            <label for="taux2"> τ = RC </label>
+          </div>
+          <div>
+            <input type="radio" id="taux3" name="q2" value="c" />
+            <label for="taux3"> τ = RI/C </label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>
+            Quel joueur a réalisé le triplé le plus rapide de la Premier League
+            ?
+          </h4>
+          <div>
+            <input type="radio" id="f1" name="q3" value="a" checked />
+            <label for="f1"> Erling Haaland</label>
+          </div>
+          <div>
+            <input type="radio" id="f2" name="q3" value="b" />
+            <label for="f2"> Luis Suárez</label>
+          </div>
+          <div>
+            <input type="radio" id="f3" name="q3" value="c" />
+            <label for="f3"> Sadio Mané</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>
+            Qui est le seul joueur à avoir remporté la Ligue des champions avec
+            trois clubs différents ?
+          </h4>
+          <div>
+            <input type="radio" id="max1" name="q4" value="a" />
+            <label for="max1"> Zlatan Ibrahimović</label>
+          </div>
+          <div>
+            <input type="radio" id="max2" name="q4" value="b" checked />
+            <label for="max2"> Ronaldo Luís Nazário de Lima</label>
+          </div>
+          <div>
+            <input type="radio" id="max3" name="q4" value="c" checked />
+            <label for="max3"> Clarence Seedorf </label>
+          </div>
+        </div>
+        <button type="submit">Valide ✅</button>
+      </form>
+      <div class="result">
+        <h2>
+          Cliquer sur <span>valide</span> pour voir les <span>résultats</span>
+        </h2>
+        <p class="mark"></p>
+        <p class="help"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
